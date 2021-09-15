@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body {
+
+background-color: darkgrey;
+
+}
+a{
+    text-decoration: none;  
+}
+
+.logo {
+    height: 75px;
+    cursor: pointer;
+
+    }
+li, a, button{
+    font-family: 'Roboto Condensed',  sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-color:#222 ;
+
+
+}   
+
+.nav_links {
+    list-style: none;
+    color: cornsilk;
+}
+.nav_links, li {
+    display: inline-block;
+    padding: 0px 20px;
+    
+} 
+.nav_links, li, a{
+    transition: all 0.3s;
+    color: cornsilk ;
+}
+.nav_links, li, a:hover{
+    color: lightsalmon;
+}
+button {
+    padding: 9px 25px;
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s ;
+
+}
+button:hover {
+color: lightsalmon;
+background-color: #222;
+
+}
+h1{
+    text-align: center;
+}
+h4 {
+    padding: 10px;
+}
+#intro{
+display: flex;
+padding: 20px;
+}
+.main_links {
+        list-style: none;
+        color: #222 ;
+}
+.main_img {
+height: 200px;
+
+}
+.container1{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
+
+    color: #222;
+
+ 
+
+}
+.about_me{
+    order: 2;
+ flex: 2;
+}
+.projects{
+    flex: 1;
+    order: 1;
+
+}
+.my_art{
+    flex: 1;
+    order: 3;
+
+}
+.mon{
+    width: 100%;
+}
+
+
+
